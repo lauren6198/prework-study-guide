@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -109,7 +110,74 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+          <li>In web development, JavaScript is the tool that takes a static HTML/CSS webpage and makes it interactive.</li>
+          <li>Control flow is the order in which a computer executes code in a JavaScript file.</li>
+          <li>A variable is a named container that allows us to store data in our code. You can name a variable nearly anything, 
+            but there are some restrictions.</li>
+          <li>JavaScript is case sensitive. This means bob is not the same as Bob. If you have problems in your code, check the case!</li>
+          <li>After declaring a variable, you can give it a value. Also, you can do both these operations on the same line.</li>
+          <li>To declare a variable in JavaScript, we have a few different options. Prior to more recent changes to JavaScript, we 
+            used the "var” keyword to create a variable in our code. You may see “var” from time to time, and it's a valid part of JavaScript, 
+            but it's important to note that all modern JavaScript uses new syntax, so we should avoid using “var”.</li>
+          <li>The first variable keyword we might use is const. The const keyword allows us to create variables that can't be reassigned a 
+            value. It essentially "locks down" what that variable will be, and once we declare it, we can never reassign it. When writing 
+            JavaScript, we always want to start by declaring variables using “const”. The second variable keyword we might use is “let”—more on that later.</li>
+          <li>After the “const” keyword, we give the variable a name. This name must be unique because it is how we will reference the information stored in the variable in our code.</li>
+          <li>Finally, we use an assignment operator “=” to assign the specific data that we want stored in our variable.</li>
+          <li>The topics variable contains a string that includes all of the topics that we are studying in this module: "HTML, CSS, Git, JavaScript". Notice that the string is 
+            contained within quotation marks, ". All strings are surrounded by quotation marks. Note that each line of JavaScript code ends with a semicolon.</li>
+          <li>Let's take a closer look at console.log. The word console refers to a test environment that developers use to check out their code. The second part, .log(), 
+            is a method, which means a set of instructions that can be executed by a computer. The .log() method will output whatever we add inside the parentheses to the console.</li>
+          <li>You can also open Chrome DevTools using keyboard commands. If you’re using windows, you can press Control+Shift+I.</li>
+          <li>Control flow is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last 
+            statement at the bottom of the page, and order counts.</li>
+          <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+          <li>An if statement is a way of introducing decision-making into our code. Just like its name sounds, when using the if statement, code will only execute if the statement 
+            meets a condition, or is true.</li>
+          <li>When the computer encounters an “if statement” in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever
+             action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between 
+             the curly brackets and move on.</li>
+          <li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false. All other values, 
+            including a Boolean with the value of true, are considered truthy.</li>
+          <li>In JavaScript, we can have more than one condition—just like we did in the dishes pseudocode—by using “else if.”</li>
+          <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal.</li>
+          <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+          <li>To create an array, we declare a variable in the same way that we declared a variable with only one data item. That is, we use const and then give the variable a name. 
+            However, instead of assigning the variable to a single value, we assign the variable to a group of values.</li>
+          <li>Arrays are not limited to contain only a single type of data. A single array can store different types of data, such as strings, numbers, and so on.</li>
+          <li>Reminder: strings need to be contained within quotation marks!</li>
+          <li>Arrays are useful tools for storing multiple items with different data types in a single variable, but not all arrays must have multiple data types. </li>
+          <li>To work with individual data items inside an array, we need to have one more piece of information: the location of the data item in the array. 
+            This location is identified with a unique number called an index.</li>
+          <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. 
+            The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. 
+            Developers must use another statement, such as the conditional if statement that we just learned, to interrupt the control flow by executing a block of code a specific number of times.</li>
+            <li>A for loop starts with—you guessed it—for.</li>
+            <li>By using a for loop, we can tell the computer to go through each of the shapes in our array and log them to the console until there are no shapes left. In order to use the for loop, 
+            we need the shape's index and the array's length.</li>
+          <li>What if we wanted to reassign the value of the variable over time? This is where we would use the let keyword. Just like with const, we use let, followed by a unique variable name 
+            and the assignment operator = to assign the specific data that we want stored in our variable. However, unlike with const, let allows us to reassign the value of the variable over time.</li>
+          <li>A for loop contains the following three important statements:</li>
+          <li>The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first 
+            index of an array is always 0).</li>
+          <li>The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running.</li>
+          <li>The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut 
+            way of writing x+1. Now every time the code loops, x will increase by 1. </li>
+          <li>Finally, we put the code that we want to be executed for each loop inside curly brackets. In place of an actual index number, however, we can add the variable x from our for loop. Now, 
+            each time the code runs, x will increase by 1 and the next array item will log to the console. </li>
+          <li>At the most basic level, a function is simply a set of instructions that tells the computer how to perform a certain task. </li>
+          <li>A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file (in our case, script.js) is run. 
+            Instead, you must call a function by name in order to execute it.</li>
+          <li>To create a function, we use the function keyword, similar to how we used the const or let keyword to declare a new variable. Then we give our function a unique name. 
+            We will use this unique name whenever we call the function.</li>
+          <li>A function's name is followed by parentheses ().</li>
+          <li>Note that it is common practice to indent the for loop code below the function name, within the curly brackets, to add visual structure to your code.</li>
+          <li>When we declare a function in our JavaScript code, we are creating a reusable block of code that performs a specific task. However, declaring a function does not mean 
+            that the code will automatically execute. We need to call the function in the code at the spot we want it to execute.</li>
+          <li>If we want to randomly pick a different item from the array each time, we need to use a special Math function that helps us select a random number.</li>
+          <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number.</li>
         </ul>
       </section>
 
@@ -118,5 +186,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
